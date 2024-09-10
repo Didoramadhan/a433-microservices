@@ -1,4 +1,4 @@
-FROM node
+FROM node:14
 LABEL org.opencontainers.image.source="https://github.com/Didoramadhan/a433-microservices"
 WORKDIR /app
 COPY . .
